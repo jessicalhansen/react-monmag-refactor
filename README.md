@@ -1,72 +1,70 @@
-# <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Monument Refactor (React)
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Overview
+## Available Scripts
 
-#### What is this lab?
+In the project directory, you can run:
 
-Today we're going to modernize Monument, a static magazine website. It is now time to refactor some code for use with a modern front-end library: React!
+### `npm start`
 
-**The objective of this lab is to:**
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-* Refactor a static html site to use a component-based approach
-* Familiarize yourself with React's filesystem and architecture on your terms
-* Create reusable, robust codebase that will serve as a boilerplate for other work
-* Continually grow the *Monument* brand until you are sick of light-blue branding styles
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
+### `npm test`
 
-## Refactor!
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-**To refactor your Monument project, first ensure you have either:**
+### `npm run build`
 
-  A) Your working version of a static Monument site
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-**-or-**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-  B) The static version of Monument provided in this github repo labeled `starter-static-site`.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-**Suggested implementation**
-1. Create a React application in this repository, preferably in a new folder.
-2. Move *all* of your `html` content (minus the `head` tag) into a new component.
-3. Copy images and css into your `public` folder.
-4. Link all of the images and styles into your new component. You may overwrite the `index.css` with the original *Monument* css.
-5. Logically separate different pieces of the *Monument* html into smaller components.  
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-**Suggested components for `index.html`:**
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-    - NavBar
-    - Landing
-      - Header
-      - Archive
-        - Article
-        - Article
-        - Article
-      - About
-      - Gallery
-      - Contact
-    - Footer
+## Learn More
 
-**Suggested components for `blog.html`:**
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-    - NavBar
-    - Blog
-      - Header
-      - Article
-      - Sidebar
-      - Comment
-    - Footer
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Keep components as large as possible until you begin to see opportunities to capitalize on repetition or obvious semantic separations, such as articles, sections, header/main/footer, etc. This will keep your workflow comprehensive and straightforward.  One early but major pitfall of React development is the tendency to prematurely optimize components to their smallest kernels. Taking the time to work incrementally ensures consistent code.
+### Code Splitting
 
-## Mockups
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Landing Page
+### Analyzing the Bundle Size
 
-![](/screenshots/landing_page.png)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Blog Page
+### Making a Progressive Web App
 
-![](/screenshots/blog_pt_2.png)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
