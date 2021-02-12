@@ -12,7 +12,7 @@ function App() {
     <div>
       <Navbar />
       <Landing />
-      {/* <Blog /> */}``
+      {/* <Blog /> */}
       <Footer />
     </div>
   );
