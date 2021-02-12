@@ -1,9 +1,8 @@
 import Navbar from './components/Navbar';
 import Landing from './components/Landing';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import Blog from './components/Blog';
 
-
-import LandingCSS from './components/Landing.css';
 import './App.css';
 
 
@@ -11,8 +10,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Landing />
-      {/* <Blog /> */}
+      {/* <Landing /> */}
+      <Blog />
       <Footer />
     </div>
   );
